@@ -8,9 +8,7 @@ if (cols== "" || cols== null)
 createTable(rows, cols);
 
 function createTable(rows, cols) {
-  function ultimatePrintOut () {
-    console.log('>>>>>>>>>>>>')
-  }
+  // repo 1, test1
   var j=1;
   var output = "<table border='1' width='500' cellspacing='0'cellpadding='5'>";
   for (i=1;i<=rows;i++) {
@@ -23,4 +21,6 @@ function createTable(rows, cols) {
     j = 1;
   }
   output = output + "</table>";
+  document.write(output);
 }
+
